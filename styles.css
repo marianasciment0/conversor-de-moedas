@@ -1,0 +1,112 @@
+.cabecalho {
+  background: var(--blue);
+  padding: 1rem 0;
+}
+
+.gif-katie {
+  height: 4rem;
+}
+
+.container {
+  padding: 2.5rem 1rem;
+}
+
+.card {
+  background: var(--blue);
+  width: 40rem;
+  height: 26rem;
+  border: 3px solid var(--blue);
+  border-radius: 5px;
+  padding: 2rem;
+  margin: 6rem auto;
+}
+
+header h2 {
+  font-size: 2rem;
+}
+
+.titulo {
+  margin-bottom: 1rem;
+}
+
+.card header {
+  text-align: center;
+}
+
+.valor {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+input,
+select {
+  border: none;
+  border-radius: 0.15rem;
+  height: 1.8rem;
+  width: 100%;
+  background: var(--branco);
+  color: var(--rosa-katie)
+}
+
+input {
+    padding: 0.8rem;
+}
+
+.conversao {
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+.converter-de,
+.converter-para {
+  width: 100%;
+}
+
+.converter-de {
+  margin-right: 2.5rem;
+}
+
+.converter-para {
+  margin-left: 2.5rem;
+}
+
+button {
+  background: var(--rosa-claro);
+  border: none;
+  border-radius: 0.15rem;
+  width: 100%;
+  height: 2.5rem;
+  cursor: pointer;
+  color: var(--branco);
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: 0.5s;
+  margin-bottom: 1rem;
+}
+
+#resultado {
+    font-weight: bold;
+    color: var(--amarelo-katie);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+button:hover {
+  filter: brightness(0.8);
+}
+
+footer {
+    margin: 1rem 0;
+    color: var(--blue);
+    font-size: 0.70rem;
+    text-align: center;
+}
